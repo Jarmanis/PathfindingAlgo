@@ -1,3 +1,21 @@
+This App was build on Replit and on completion a repository was created for this project.
+
+Developed by Jarmani Soriano
+
+## Maze Solver using Pathfinding Algorithms
+Each maze is randomly generated using a button.
+The React app uses two different algorithms you may select to solve each maze.
+Breadth-First Search and Depth-First Search, give them a try!
+There are four different tiles in the maze.
+
+Green = Starting position
+White = Available path
+Black = Unavailable/Wall
+Red = End position
+
+Maze size preset is 20x20
+
+
 ## Running React on Replit
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
