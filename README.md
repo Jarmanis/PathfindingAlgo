@@ -1,19 +1,24 @@
-This App was build on Replit and on completion a repository was created for this project.
+This App was built on Replit and on completion a repository was created for this project.
 
 Developed by Jarmani Soriano
 
 ## Maze Solver using Pathfinding Algorithms
-Each maze is randomly generated using a button.
-The React app uses two different algorithms you may select to solve each maze.
-Breadth-First Search and Depth-First Search, give them a try!
-There are four different tiles in the maze.
+- Each maze is randomly generated using a button.
+- The React app uses two different algorithms you may select to solve each maze.
+- Breadth-First Search and Depth-First Search, give them a try!
+- There are four different tiles in the maze.
 
-Green = Starting position
-White = Available path
-Black = Unavailable/Wall
-Red = End position
+- Green = Starting position
+- White = Available path
+- Black = Unavailable/Wall
+- Red = End position
 
 Maze size preset is 20x20
+
+## Todo List
+
+- mobile friendly
+- create clear path button to be able to use both algos on the same maze
 
 
 ## Running React on Replit
@@ -33,3 +38,4 @@ By default, Replit runs the `dev` script, but you can configure it by changing t
 ### Typescript
 
 Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+
