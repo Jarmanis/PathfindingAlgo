@@ -5,7 +5,7 @@ Developed by Jarmani Soriano
 ## Maze Solver using Pathfinding Algorithms
 - Each maze is randomly generated using a button.
 - The React app uses two different algorithms you may select to solve each maze.
-- Breadth-First Search and Depth-First Search, give them a try!
+- Breadth-First Search (BFS) and Depth-First Search (DFS), give them a try!
 - There are four different tiles in the maze.
 
 - Green = Starting position

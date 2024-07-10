@@ -64,7 +64,7 @@ export default function MazeGrid({ width = 20, height = 20 }) {
             }
             queue.push([nx, ny]);
           }
-        } // '2, 3'
+        } 
       }
 
       const timeoutId = setTimeout(step, 100);
@@ -198,15 +198,28 @@ export default function MazeGrid({ width = 20, height = 20 }) {
 
   return (
     <div className="maze-grid">
+      <div className="instructions">
+        <h2>Instructions</h2>
+          <ul>
+            <li>Each maze is randomly generated using the Refresh Maze button.</li>
+            <li>The Maze Solver uses two different algorithms you may select to solve each maze.</li>
+            <li>Breadth-First Search (BFS) and Depth-First Search (DFS), give them a try!</li>
+            <li>There are four different tiles in the maze.</li>
+            <li>Green = Starting position</li>
+            <li>White = Available path</li>
+            <li>Black = Unavailable/Wall</li>
+            <li>Red = End position</li>
+          </ul>
+      </div>
       <div className="controls">
         <button className={"maze-button"} onClick={() => refreshMaze()}>
           Refresh Maze
         </button>
         <button className={"maze-button"} onClick={() => bfs([1, 0])}>
-          Breadth-First Search
+          (BFS) Solver 1
         </button>
         <button className={"maze-button"} onClick={() => dfs([1, 0])}>
-          Depth-First Search
+          (DFS) Solver 2
         </button>
       </div>
       <div className={"maze"}>

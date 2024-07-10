@@ -6,12 +6,14 @@ html {
 }
 
 .maze-grid {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+
 
 .controls {
   display: flex;
