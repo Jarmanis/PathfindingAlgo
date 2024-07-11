@@ -6,11 +6,12 @@ html {
 }
 
 .maze-grid {
-  height: 120vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 
@@ -71,29 +72,3 @@ html {
   background-color: red;
 }
 
-@media (max-width: 1270px) {
-  .maze-grid {
-    display: flex;
-    width: 95%;
-    padding: 200px;
-  }
-}
-
-@media (max-width: 770px) {
-  .maze-grid {
-    width: 100%;
-    padding: 200px;
-  }
-}
-
-@media (max-width: 510px) {
-  .maze-grid {
-    margin: 100px;
-  }
-}
-
-@media (max-height: 900px) {
-  .maze-grid {
-    height: 100%;
-  }
-}
