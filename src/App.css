@@ -108,6 +108,11 @@ html {
 
 @media (max-width: 450px) {
   .maze {
-    zoom: 0.3;
+    zoom: 0.39;
+  }
+
+  div.instructions {
+    zoom: 0.73;
   }
 }
+
