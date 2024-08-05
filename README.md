@@ -17,7 +17,7 @@ Maze size preset is 20x20
 
 ## Todo List
 
-- mobile friendly
+- mobile friendly (completed)
 - create clear path button to be able to use both algos on the same maze
 
 
