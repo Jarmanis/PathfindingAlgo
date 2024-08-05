@@ -2,7 +2,7 @@ main {
 }
 
 html {
-  background-color: #cfcfcf;
+  background-color: #ff8a95;
 }
 
 .maze-grid {
@@ -12,14 +12,40 @@ html {
   align-items: center;
   justify-content: center;
   margin: 0;
+  
 }
 
+
+
+.maze-grid h1 {
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.instructions {
+  background-color: #d0d0d0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.instructions h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 
 .controls {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 
 .maze-button {
@@ -30,7 +56,9 @@ html {
   font-size: 16px;
   border: none;
   padding: 10px 20px;
+  margin-bottom: 13px;
   border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .maze {

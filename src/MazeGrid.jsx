@@ -198,11 +198,12 @@ export default function MazeGrid({ width = 20, height = 20 }) {
 
   return (
     <div className="maze-grid">
+      <h1>Maze Solver</h1>
       <div className="instructions">
         <h2>Instructions</h2>
-          <ul>
+          <ul className="lists">
             <li>Each maze is randomly generated using the Refresh Maze button.</li>
-            <li>The Maze Solver uses two different algorithms you may select to solve each maze.</li>
+            <li>The Maze Solver uses two different algorithms that you may select to solve each maze.</li>
             <li>Breadth-First Search (BFS) and Depth-First Search (DFS), give them a try!</li>
             <li>There are four different tiles in the maze.</li>
             <li>Green = Starting position</li>
